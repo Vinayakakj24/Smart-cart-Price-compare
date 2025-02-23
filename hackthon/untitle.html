@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate Price Comparison</title>
+    <link rel="stylesheet" href="Untitled.css">
+    
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Price Comparison Platform</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search for products..." onkeyup="searchProduct()">
+        </div>
+    </header>
+    
+
+    <main>
+        <div id="productC ontainer"></div>
+        <div class="product-list" id="product-list">
+            <div class="product-item" data-name="Product 1">
+                <img src="kunteeeee.webp" alt="Product 1" id="P1">
+                <h3>Product 1</h3>
+                <p>Price on Amazon: 19,999</p>
+                <a href="https://www.amazon.in/iQOO-Storage-Ultra-Thin-Dimesity-Processor/dp/B07WFPL9PB/ref=sr_1_3?crid=35WAKAPM5I4VI&dib=eyJ2IjoiMSJ9.xLd3WpjObxATNdypNu5pZSvAjiU73q_8Xu_KnKG4IduEkzPuo1SKm1SsJbnkMWnRsXDIuUVgvDidAKKF1XCnYDm4ceR8KrDe7QUg-LhAmthL_zLEw7f1Zx52sUwm_Ha4taclWpGX6IN-FjKllAB02Gd9BFOKfhB2ap86ACBny4RDlcdhMHbHBnHMTVmqnQTETHJATfnh9vhYHcLeUk48CxoijSHLbJ2URzbFcIBkwg4.PxNcNlzGb6t2B0441v0fsEcn18LGADKRcUVDAJchMc4&dib_tag=se&keywords=iqoo%2Bz9%2Bpro%2B5g&qid=1740222158&sprefix=iq%2Caps%2C580&sr=8-3&th=1" target="_blank" class="affiliate-link">Buy on Amazon</a>
+                <p>Price on Filpkart: 20,488</p>
+                <a href="https://www.flipkart.com/iqoo-z9s-5g-onyx-green-128-gb/p/itmd0cd60e21a46f?pid=MOBH46H9EUYA54HN&lid=LSTMOBH46H9EUYA54HNGMEDVU&marketplace=FLIPKART&q=iqoo+z9s&store=tyy%2F4io&srno=s_1_1&otracker=AS_Query_HistoryAutoSuggest_1_4_na_na_na&otracker1=AS_Query_HistoryAutoSuggest_1_4_na_na_na&fm=organic&iid=977e632e-c7c5-435a-8aee-3dacb7833fdf.MOBH46H9EUYA54HN.SEARCH&ppt=hp&ppn=homepage&ssid=d0u0enkym80000001740222316669&qH=6bf8ffe4372cb8d9" target="_blank" class="affiliate-link">Buy on flipkart</a>
+            </div>
+            <div class="product-item" data-name="Product 2" >
+                <img src="kuntee cmf.webp" alt="Product 2" id="P2">
+                <h3>Product 2</h3>
+                <p>Price on Amazon: 2,299</p>
+                <a href="https://www.amazon.in/CMF-NOTHING-Buds-Cancelling-Waterproof/dp/B0CXDQSMG7/ref=sr_1_3?crid=21H4HDM4YIKTU&dib=eyJ2IjoiMSJ9.h6O1AUTmmPQbMTpW-BJx5F05xC_LbaQsISSkqbwxSsfNKnKhVlXOf3TyJDDw7BU9a7nTCXj1xyAEb10fCsc0SRAWKwlrIXokDZdBDaYM9apvCRC8yyQGA0dFLGKllcGFkK1kyoYrazfiQ284ni6l_YrpN5KFZVvx2Ox_DBDzfFfKv4g6zJLcsOvACQpqt3949NyacyL3qfqMHv6LewtrXfRezed8powLyTJkVG_G6Mo.T2HD04sPt0h_M0B0zNAFFAW8wlhz_6qrKbWm-jtEYlk&dib_tag=se&keywords=cmf%2Bearbuds&nsdOptOutParam=true&qid=1740222740&sprefix=cmf%2Bearbuds%2Caps%2C282&sr=8-3&th=1" target="_blank" class="affiliate-link">Buy on Amazon</a>
+                <p>Price on flipkart: 2,299</p>
+                <a href="https://www.flipkart.com/cmf-nothing-buds-42-db-active-noise-cancellation-ultra-bass-technology-35-5-hrs-playtime-bluetooth/p/itm7053a121bfac5?pid=ACCGXX62ATGFSZG8&lid=LSTACCGXX62ATGFSZG8WNIGXQ&marketplace=FLIPKART&q=cmf+earbuds+by+nothing&store=0pm%2Ffcn%2F821%2Fa7x&spotlightTagId=BestsellerId_0pm%2Ffcn%2F821%2Fa7x&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=806d4863-5957-4ffc-bb6a-b5e3a893f61f.ACCGXX62ATGFSZG8.SEARCH&ppt=sp&ppn=sp&ssid=exgeed3jio0000001740222805152&qH=00242a235f47cf47" target="_blank" class="affiliate-link">Buy on flipkart</a>
+            </div>
+            <div class="product-item" data-name="Product 3" >
+                <img src="lava blaze.webp" alt="Product 3" id="P3">
+                <h3>Product 3</h3>
+                <p>Price on Amazon: 15,499</p>
+                <a href="https://www.amazon.in/Lava-Viridian-Storage-Dimensity-Processor/dp/B0CTZQPZNX/ref=rvi_d_sccl_5/259-3915363-1478767?pd_rd_w=rwYp8&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=TVDTR2JXWGQJY2BYB8AJ&pd_rd_wg=r6965&pd_rd_r=7eb49b56-9e5c-4155-9dd4-63c3e7eadb70&pd_rd_i=B0CTZQPZNX&th=1" target="_blank" class="affiliate-link">Buy on Amazon</a>
+                <p>Price on flipkart: 18,999</p>
+                <a href="https://www.flipkart.com/lava-blaze-curve-5g-glass-viridian-256-gb/p/itm2d68d65408cab?pid=MOBHF4MGF3JAGH8V&lid=LSTMOBHF4MGF3JAGH8VJXHPHV&marketplace=FLIPKART&q=lava+blaze+curve+5g+phone&store=tyy%2F4io&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_2_20_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_2_20_na_na_na&fm=search-autosuggest&iid=a532426e-1199-4ef5-b954-bb7a36841ef8.MOBHF4MGF3JAGH8V.SEARCH&ppt=sp&ppn=sp&ssid=w2k1qp339c0000001740224046637&qH=8f28e1b163959a48" target="_blank" class="affiliate-link">Buy on flipkart</a>
+            </div>
+            <div class="product-item" data-name="Product 4" >
+                <img src="raelme14.webp" alt="Product 4" id="P4">
+                <h3>Product 4</h3>
+                <p>Price on Amazon: 33,999</p>
+                <a href="https://www.amazon.in/realme-parant-Pearl-White-Storage/dp/B0DT754VT5/ref=sr_1_1?crid=3OLFOHWW98ZXS&dib=eyJ2IjoiMSJ9.56KGcY8JBLs-44nJWeuhYxWCUjKkgVEgPT_2xVW0YBbyhD5r5JDule9F1kcMTz5_jLIHEQC-qJcQ3o8Ad4CpaabYhCMhEKuxkU7-wijRrmulAwTVyBuLKMRdLfwrjj58W1qiyQwP2JlKH4R58q4ecnoFIjQuL2q_6LoT-STKKMBHzaA1s5I-dfISoQLuKRlpNOOYrOb1Hni7WQ45q6FbT5A93kiUA1MXwIsH7kYg0OvKsbOPl0ezU57b_TdyHJmX_qmuKCkWkJOhclT4JfKmincaPbwB99fjttxRMn1_hPeDnI1Wg4cxeY3dOCKhllbCppQwrsdPgGKLaCMA8l-fQCnmVvdOWekP3wZmNe8m6zQ.My_SqOQNha9MMKqdPRFlRF9QNKZxobzPRXhTUc_qGnA&dib_tag=se&keywords=realme%2B14%2Bpro%2B5g%2Bpearl%2Bwhite%2B12gb%2C256gb&qid=1740225340&s=electronics&sprefix=realme%2B14%2Bpro%2B5g%2Bperl%2Bwhite%2B12gb%2C256gb%2Celectronics%2C223&sr=1-1&th=1" target="_blank" class="affiliate-link">Buy on Amazon</a>
+                <p>Price on flipkart: 34,999</p>
+                <a href="https://www.flipkart.com/realme-14-pro-5g-pearl-white-256-gb/p/itmb5105a70ea6a6?pid=MOBH84ZX7NAXXFQQ&lid=LSTMOBH84ZX7NAXXFQQV10QBB&param=896&otracker=clp_bannerads_1_19.bannerAdCard.BANNERADS_Realme%2B14%2BPro%2BSeries-Sale%2BIs%2BOn_mobile-phones-store_GV8NWR5UADCT" target="_blank" class="affiliate-link">Buy on flipkart</a>
+            </div>
+        <div id="cart-container" class="cart-container">
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <button onclick="clearCart()">Clear Cart</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Price Comparison Platform</p>
+    </footer>
+
+    <script src="search.js"></script>
+</body>
+</html>

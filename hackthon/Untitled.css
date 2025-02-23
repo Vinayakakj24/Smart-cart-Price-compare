@@ -1,0 +1,137 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header .logo h1 {
+    color: white;
+}
+
+header .search-bar input {
+    padding: 8px;
+    width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+main {
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    width: 275px;
+    height: 375px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.product-item h3 {
+    color: #333;
+}
+
+.product-item p {
+    color: #555;
+}
+
+.affiliate-link {
+    display: block;
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.affiliate-link:hover {
+    background-color: #444;
+}
+
+.cart-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    box-shadow: -4px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.cart-container table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cart-container table, th, td {
+    border: 1px solid #fff;
+    border-collapse: collapse;
+}
+
+.cart-container th, td {
+    padding: 10px;
+    text-align: center;
+}
+#P1{
+    width: 100%;
+    height: 100%;
+    width: 260px;
+    height: 360px;
+}
+#P2{
+    width: 100%;
+    height: 100%;
+    width: 260px;
+    height: 360px;
+}
+#P3{
+    width: 100%;
+    height: 100%;
+    width: 260px;
+    height: 360px;
+}
+#P4{
+    width: 100%;
+    height: 100%;
+    width: 260px;
+    height: 360px;
+}
